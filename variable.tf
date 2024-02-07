@@ -1,24 +1,28 @@
 # windows 2022 variables
-
+/*subscription_id = "544175bc-910c-4bb2-9570-e6b50b93806d"
+  client_id = "4ac5f719-bd3a-4357-922a-b181b7e80671"
+  client_secret = "33S8Q~4q99o-VRLcaqEFwStuVcdHhzWnoVWMPayV"
+  tenant_id = "823fb12d-7a69-4d7b-aa51-b6c82fe5cc5a"
+  */
 # subscription id of provider
 variable "subscription-id" {
     type = string
-    default = "21310e70-db4d-4153-90c3-7fa4adec17d3"
+    default = "544175bc-910c-4bb2-9570-e6b50b93806d"
 }
 # client id of provider
 variable "client-id" {
     type = string
-    default = "f33a139d-3c04-43f6-bc25-1e65acc7afe5"
+    default = "4ac5f719-bd3a-4357-922a-b181b7e80671"
 }
 # client secret value of provider
 variable "client-secret" {
     type = string
-    default = "8-78Q~AlUeZeLMlTPCVIWNuVQPMmNNhuQaJJ7c0J"
+    default = "33S8Q~4q99o-VRLcaqEFwStuVcdHhzWnoVWMPayV"
 }
 # tenant id of provider
 variable "tenant-id" {
     type = string
-    default = "80c19f82-3727-43db-8296-5d2d8c2dda7f"
+    default = "823fb12d-7a69-4d7b-aa51-b6c82fe5cc5a"
 }
 
 # value will come from the payload

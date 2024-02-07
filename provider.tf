@@ -19,7 +19,7 @@ provider "azurerm" {
   }
   terraform {
   cloud {
-    organization = "Sentinal-POC"
+    organization = "Sentinel_demo01"
 
     workspaces {
       name = "sentinal-check"
