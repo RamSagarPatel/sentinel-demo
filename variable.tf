@@ -29,7 +29,7 @@ variable "tenant-id" {
 variable "location" {
     type = string
     description = "location of the resource"
-    default = "central india"
+    default = "eastus"
 }
 # value will come from the payload
 variable "rsg-name" {
