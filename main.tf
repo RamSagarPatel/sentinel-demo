@@ -56,4 +56,12 @@ source_image_reference {
   sku=var.sku
   version=var.windows-version
 }
+#adding tags
+tags = {
+    environment         = "Test"
+    project             = "myproject"
+    owner               = "John Doe"
+    cost_center         = "12345"
+    department          = "IT"
+  }
 }
